@@ -7,10 +7,11 @@ btn.addEventListener('click', pegarDados)
 
 function pegarDados(){
     let form = document.querySelector('form')
-
+    
     let pessoa = {
         nome: form.nome.value,
         email: form.email.value,
+        dataNascimento: form.dataNascimento.value,
         endereco: form.endereco.value,
         plano: form.plano.value,
         sexo: form.sexo.value,
